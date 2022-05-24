@@ -1,0 +1,36 @@
+from random import randint
+a = [
+	'Green Knight',
+	'Red Knight',
+	'Blue Knight',
+	'Orange Knight',
+	'Gray Knight',
+	'Barbarian',
+	'Thief',
+	'Fencer',
+	'Killer Beekeeper',
+	'Industrialist',
+	'Alien Hominid',
+	'The King',
+	'Brute',
+	'Snakey',
+	'Saracen',
+	'Royal Guard',
+	'Stove Face',
+	'Peasant',
+	'Bear Shaman',
+	'Necromancer',
+	'Conehead',
+	'Civilian',
+	'Unmasked Gray Knight',
+	'Fire Demon',
+	'Skeleton',
+	'Iceskimo',
+	'Ninja',
+	'Cult Minion',
+	'Pink Knight',
+	'Blacksmith',
+	'Hatty Hattington'
+]
+while True:
+	input(a[randint(0, randint(0, (len(a) - 1) * 10)) % len(a)])
