@@ -33,4 +33,4 @@ a = [
 	'Hatty Hattington'
 ]
 while True:
-	input(a[randint(0, randint(0, (len(a) - 1) * 10)) % len(a)])
+	input(a[randint(0, randint(0, (len(a) - 1) * len(a))) % len(a)])
